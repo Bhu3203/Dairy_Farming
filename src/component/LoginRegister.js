@@ -22,7 +22,7 @@ export default function LoginRegister()
                     </div>
                     <div className="remember-forgot">
                         <label ><input type="checkbox"  />Remember me</label>
-                        <Link to="/password">Forgot Password?</Link>
+                        <Link to="/milk">Forgot Password?</Link>
                     </div>
                     <button type="submit">Login</button>
                     <div className="register-link">
