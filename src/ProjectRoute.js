@@ -6,7 +6,8 @@ import LoginRegister from './component/LoginRegister';
 import Register from './component/Register';
 import App from './App';
 import Forgot_Password from './component/Forgot_Password';
-import Milk_Schedule from './component/Milk_Schedule';
+
+import Add_Milk_Record from './component/Add_Milk_Record';
 
 
 
@@ -34,7 +35,7 @@ const customRoute = createBrowserRouter([
                     },
             {
                         path:'/milk',
-                        element:<Milk_Schedule/>
+                        element:<Add_Milk_Record/>
                     },
            
         ]
