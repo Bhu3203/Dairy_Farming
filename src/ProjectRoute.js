@@ -8,6 +8,7 @@ import App from './App';
 import Forgot_Password from './component/Forgot_Password';
 
 import Add_Milk_Record from './component/Add_Milk_Record';
+import Farmer_Registration from './component/Farmer_Registration';
 
 
 
@@ -36,8 +37,11 @@ const customRoute = createBrowserRouter([
             {
                         path:'/milk',
                         element:<Add_Milk_Record/>
-                    },
-           
+                    },           
+            {
+                        path:'/farmer',
+                        element:<Farmer_Registration/>
+                    },           
         ]
     },
 ]);
