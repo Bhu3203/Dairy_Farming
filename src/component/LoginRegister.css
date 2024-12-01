@@ -8,7 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     background: slateblue ;
 }
 
@@ -16,7 +16,7 @@
     margin-left: 20%;
     position: relative;
     width:420px;
-    height: 450px;
+    height: 250px;
     background: skyblue;
     border-radius: 10px;
     color:black;
